@@ -65,4 +65,4 @@ def index():
     return flask.redirect("https://twitch.tv/{}".format(r))
 
 if __name__ == "__main__":
-    app.run(host="0.0.0.0")
+    app.run(host="0.0.0.0", port=80)
